@@ -1,5 +1,4 @@
-/** Author Wellington Soares da Luz
- */
+/** Author Wellington Soares da Luz */
 
 function $_GET(parameter){
 	try{
@@ -35,6 +34,12 @@ function $_getCookie(cname) {
 		}
 	}
 	return "";
+};
+
+
+
+function $_rmvCookie(cname) {
+	$_setCookie(cname, "", -1)
 };
 
 
